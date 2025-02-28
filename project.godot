@@ -11,12 +11,15 @@ config_version=5
 [application]
 
 config/name="CycleRush"
+config/version="0.1"
 run/main_scene="res://scenes/debug/debug.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=320
+window/size/viewport_height=288
 window/stretch/mode="canvas_items"
 
 [input]
